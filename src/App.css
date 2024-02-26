@@ -1,11 +1,7 @@
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.helper {
-  height: 100vh;
-  background-color: orange;
+.text-main {
+  font: 900 58px 'DeathStar', sans-serif;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #CEB7FF;
+  filter: drop-shadow(0 0 5px #B377FF);
 }

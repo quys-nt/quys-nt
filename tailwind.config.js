@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'cus-black': '#090909',
+      },
+      fontFamily: {
+        'deathstar':  ['"DeatStar", sans-serif',]
+      }
+    },
   },
   plugins: [],
 }

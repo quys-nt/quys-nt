@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'DeathStar';
+  src: local('DeathStar'), url(./assets/fonts/Death-Star.otf) format('woff');
+}
